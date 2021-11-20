@@ -3,8 +3,8 @@ const app = express();
 const PORT = process.env.PORT || 4001;
 app.use(express.static('public'));
 
-app.get("/test", (req, res)=>{
-  res.sendFile(__dirname + "/public/index.html")
+app.get("/korea", (req, res)=>{
+  res.sendFile(__dirname + "/public/korea.html")
 })
 
 app.listen(PORT, () => {
