@@ -2,20 +2,20 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: 'Space Grotesk', sans-serif;
+  background-color: #0e080c;
 }
 
-html{
-  scroll-padding-top: 200px;
-}
 
 header {
-  background-color: #333333;
+  background-color: #0e080c;
   display: flex; 
   position: fixed;
   width: 100%;
   height: 200px;
   z-index: 3;
   color: #fff;
+  animation-name: gradualAppearance;
+  animation-duration: 2s;
 }
 
 .title-text{
@@ -39,4 +39,92 @@ nav li {
   display: inline-block;
   width: 90px;
   font-size: 30px;
+}
+
+#test{
+  width: 100%;
+  height: 480px;
+  background-image: url("GlobeBanner.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 200px;
+  text-align: center;
+  color: white;
+  
+}
+
+
+.flicker {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e5fa5f, 0 0 40px #e5fa5f, 0 0 50px #e5fa5f, 0 0 60px #e5fa5f, 0 0 70px #e5fa5f;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #eef7b5, 0 0 40px #eef7b5, 0 0 50px #eef7b5, 0 0 60px #eef7b5, 0 0 70px #eef7b5, 0 0 80px #eef7b5;
+  }
+}
+
+
+h2{
+  font-size: 60px;
+}
+
+p{
+  font-size: 30px;
+
+}
+
+.introText {
+  position: relative;
+  top: 40px;
+  animation-name: gradualAppearance;
+  animation-duration: 2s;
+}
+
+
+@keyframes gradualAppearance{
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+
+
+
+
+.about {
+  width: 100%;
+  height: 350px;
+  background-color: black;
+  position: absolute;
+  top: 630px;
+  color: white;
+}
+
+
+.aboutDesc {
+  position: absolute;
+  width: 50%;
+  background-color: black;
+
+}
+
+.link {
+  position: absolute;
+  width: 50%;
+  background-color: black;
+  right: 0px;
+}
+
+
+
+div {
+  text-align: center;
 }
