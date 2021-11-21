@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Astro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+    <link href="locationStyle.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+        <div class="title-text" onclick="document.location.href = '/'">ASTRO</div>
+    </header>
+    <div class="content">
+      <canvas id='canvas' width='547.2px' height='657px'></canvas>
+      <div class="info">
+        <h1>South Korea</h1>
+        <br>
+        <strong>Visibility:</strong> <span id="visibility"></span><br>
+        <strong>Color:</strong> <span id="color"></span>
+      </div>
+    </div>
+    <script src="koreaScript.js"></script>
+  </body>
+</html>

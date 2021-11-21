@@ -11,30 +11,47 @@
   </head>
   <body>
     <header>
-        <div class="title-text sharpGlow">ASTRO</div>
+        <div class="title-text sharpGlow" onclick="document.location.href = '/'">ASTRO</div>
         <nav>
           <ul>
-            <li> About </li> <li> Work </li>
+            <li> <a href="about.html">About</a> </li> <li></li><li></li>
           </ul>
         </nav>
     </header>
     <div id="test">
       <div class="introText">
-        <h2 class="flicker">Light Pollution</h2>
-        <p>The hiding of the beauties of the skies</p>
+        <h2 class="flicker"><span class="plotTwist">Light Pollution</span><span class="cursor">|</span></h2>
+        <p>The <span class="plotTwist">hiding</span><span class="cursor">|</span> of the beauties of the skies</p>
       </div>
     </div>
     <div class="about">
       <div class="aboutDesc">
         <h2>About</h2>
-        <p>Use Astro to view the visibility of the night sky </p>
+        <p style="font-size: 18px;">Use Astro to view the visibility of the wonders of the night sky, wherever you are. Explore the possibilities of your next nighttime adventure with Astro.
+        <br><br><br>With the use of an algorithm to determine the brightness of light pollution using only a satellite picture, Astro determines the visibility percentage and the nighttime thrill you will experience.</p>
+        <a href="about.html" style="color: #706b6b">View More</a>
       </div>
-      <div class="link">
-        <a href="korea.html">
-          <img src="Map.jpg" width="300px" height= "300px" style="top: 25px; position: relative">
+      <div class="link" style="right: 0px;">
+        <a href="locations/korea.html">
+          <img src="locations/koreaMap.jpg" width="300px" height= "300px" style="top: 25px; position: relative">
         </a>
       </div>
     </div>
+    <div class="locations">
+      <div class="link"  style="left: 0px;">
+        <h3>South Korea</h3>
+        <a href="locations/korea.html">
+          <img src="locations/koreaMap.jpg" width="300px" height= "300px" style="top: 25px; position: relative">
+        </a>
+      </div>
+      <div class="link"  style="right: 0px;">
+        <h3>United States of America</h3>
+        <a href="locations/usa.html">
+          <img src="locations/usaMap.jpg" width="535.7px" height= "300px" style="top: 25px; position: relative">
+        </a>
+      </div>
+    </div>
+    <div>
     <script src="script.js"></script>
   </body>
 </html>

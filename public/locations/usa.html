@@ -7,19 +7,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
-    <link href="koreaStyle.css" rel="stylesheet" type="text/css" />
+    <link href="locationStyle.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header>
-        <div class="title-text">ASTRO</div>
+        <div class="title-text" onclick="document.location.href = '/'">ASTRO</div>
     </header>
     <div class="content">
-      <canvas id='canvas' width='547.2px' height='657px'></canvas>
-      <div class="info">
+      <canvas id='canvas' width='1080px' height='657px' style="left: -70px; position: absolute;"></canvas>
+      <div class="info" style="left: 1100px; position: absolute;">
+        <h1>United States of America</h1>
+        <br>
         <strong>Visibility:</strong> <span id="visibility"></span><br>
         <strong>Color:</strong> <span id="color"></span>
       </div>
     </div>
-    <script src="script.js"></script>
+    <script src="usaScript.js"></script>
   </body>
 </html>
