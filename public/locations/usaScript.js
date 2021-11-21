@@ -15,5 +15,4 @@ canvas.onmousemove = function(e){
   document.querySelector("#visibility").innerHTML = `${((1 - (luma/256)) * 100).toFixed(1)}%`
   document.querySelector("#color").innerHTML = rgbString;
   document.querySelector(".title-text").style.color = rgbString;
-  document
 }
