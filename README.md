@@ -23,6 +23,6 @@ Experience Astro in action at [Demo](https://astro-juwanglee.glitch.me/).
 To set up Astro locally, clone the repository using the following commands:
 
 ```bash
-$ git clone https://github.com/KevinJuwangLee/VividHacks.git
+$ git clone https://github.com/KevinJuwangLee/Astro-VividHacks-.git
 $ cd VividHacks
 ```
