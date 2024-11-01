@@ -1,6 +1,8 @@
 # Astro
 **Astro** is a user-friendly application designed to help you explore the night sky by calculating the visibility of stars in different locations while raising awareness about light pollution
 Made for VividHacks hackathon for the theme, Astro.
+![image](https://github.com/user-attachments/assets/7d709f03-94a5-4803-8486-d551f57dd114)
+
 
 ## Overview
 
